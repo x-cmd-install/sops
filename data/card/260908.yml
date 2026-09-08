@@ -5,13 +5,13 @@ about:
   head: ba5d273
   archived: false
   latestVersion: "v3.13.3"
-  collectedAt: 2026-09-08T02:29:17Z
+  collectedAt: 2026-09-08T05:19:43Z
 timeline:
   created: 2015-08-13
   lastCommit: 2026-09-07
   lastRelease: 2026-07-23
 popularity:
-  star: 23053
+  star: 23054
   watcher: 122
   fork: 1076
   release: 38
@@ -82,7 +82,7 @@ total:
   commit: 2706
 ---
 path: /home/runner/.x-repo/github.com/mozilla/sops
-collectedAt: 2026-09-08T02:29:32Z
+collectedAt: 2026-09-08T05:20:08Z
 loc:
   Go:
     code: 21441
