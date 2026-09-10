@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 17080545,
       "digest": "sha256:f362eabc5b17b84894952fc57737eccf26ef8a4321453c165f4b1205b5544123",
-      "download_count": 3875,
+      "download_count": 3877,
       "created_at": "2026-07-23T05:28:02Z",
       "updated_at": "2026-07-23T05:28:03Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-3.13.3-1.x86_64.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 53497856,
       "digest": "sha256:a4a9a398858fe8b2ef72d9686d930bf7c5cece9be74ad83ac3b53cfdd70e6b1c",
-      "download_count": 12362,
+      "download_count": 12391,
       "created_at": "2026-07-23T05:27:58Z",
       "updated_at": "2026-07-23T05:28:00Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.amd64.exe"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 10331,
       "digest": "sha256:b140370c339c465dff725b879e0caad3e7ff441fdbbef51179924f9c4b45082f",
-      "download_count": 3542,
+      "download_count": 3552,
       "created_at": "2026-07-23T05:28:06Z",
       "updated_at": "2026-07-23T05:28:06Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.sigstore.json"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 630,
       "digest": "sha256:91710ede6a3218e5b62286412543768a92d0c3449434951bd148d21043aad538",
-      "download_count": 39636,
+      "download_count": 39863,
       "created_at": "2026-07-23T05:28:06Z",
       "updated_at": "2026-07-23T05:28:06Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.txt"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 53674896,
       "digest": "sha256:42162d5cef10b74fcf80a045a70e658d7ce6e63d6ea1be6f347e44015714468d",
-      "download_count": 1122,
+      "download_count": 1124,
       "created_at": "2026-07-23T05:28:00Z",
       "updated_at": "2026-07-23T05:28:03Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.amd64"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 50168146,
       "digest": "sha256:b97c0d434aab577dc40310e8d22ff9e45eef4c80638ab978daae9b4681c59286",
-      "download_count": 21651,
+      "download_count": 21706,
       "created_at": "2026-07-23T05:27:58Z",
       "updated_at": "2026-07-23T05:28:00Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.arm64"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 27187,
       "digest": "sha256:d8756a37a9b0f37e8cbe473535e97e154f899bf8202d5e46ee4610455a47ac9b",
-      "download_count": 127875,
+      "download_count": 128359,
       "created_at": "2026-07-23T05:29:10Z",
       "updated_at": "2026-07-23T05:29:11Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.intoto.jsonl"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 52121762,
       "digest": "sha256:e5bec3346a873ae91d871550f3e698c1aad962aff462a080e40f25fde17fef6b",
-      "download_count": 711848,
+      "download_count": 714327,
       "created_at": "2026-07-23T05:27:58Z",
       "updated_at": "2026-07-23T05:28:00Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 48300194,
       "digest": "sha256:53b0abacd38ef1b12a66d6c100956691b9cefce018d91f81e73ddf7438b94d77",
-      "download_count": 39196,
+      "download_count": 39329,
       "created_at": "2026-07-23T05:28:01Z",
       "updated_at": "2026-07-23T05:28:03Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.arm64"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 16485534,
       "digest": "sha256:927c45f2ccb5b1c9acb1e80c7befaea0672c721fd3f222697a51e0a7081e3f3b",
-      "download_count": 25122,
+      "download_count": 25224,
       "created_at": "2026-07-23T05:28:03Z",
       "updated_at": "2026-07-23T05:28:04Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_amd64.deb"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 14887884,
       "digest": "sha256:21cf1ee8860bb9c2a0b09ac97901b41ca9f95734f3402ea358e31e296e6be823",
-      "download_count": 1078,
+      "download_count": 1079,
       "created_at": "2026-07-23T05:28:03Z",
       "updated_at": "2026-07-23T05:28:04Z",
       "browser_download_url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_arm64.deb"

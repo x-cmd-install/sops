@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.13.3"
   latestRelease: "v3.13.3"
   latestPrerelease: "v3.8.0-rc.1"
-  collectedAt: 2026-09-10T20:43:54Z
+  collectedAt: 2026-09-10T23:23:01Z
 timeline:
   created: 2015-08-13
   lastCommit: 2026-09-07
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-23
   lastPrerelease: 2023-08-25
 popularity:
-  star: 23082
+  star: 23084
   watcher: 122
   fork: 1077
   release: 38
@@ -86,7 +86,7 @@ total:
   commit: 2706
 ---
 path: /home/runner/.x-repo/github.com/mozilla/sops
-collectedAt: 2026-09-10T20:44:08Z
+collectedAt: 2026-09-10T23:23:17Z
 loc:
   Go:
     code: 21441
