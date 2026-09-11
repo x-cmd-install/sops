@@ -1,15 +1,33 @@
-- repo: terra_40
-  srcname: sops
+- repo: wakemeops
+  subrepo: secops
   binname: sops
   visiblename: sops
   version: 3.9.4
-  origversion: 3.9.4-1.fc40
+  origversion: 3.9.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.3
+  origversion: 3.9.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: sops
+  visiblename: sops
+  version: 3.8.0
+  origversion: 3.8.0-bp156.2.3.1
   status: outdated
   summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
   categories:
-    - Unspecified
+    - Productivity/Security
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -264,15 +282,6 @@
     - MPL-2.0
   categories:
     - app-crypt
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: 3.8.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: macports
   srcname: security/sops
   binname: sops
@@ -439,18 +448,6 @@
     - MPL-2.0
   categories:
     - Productivity/Security
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: sops
-  visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-bp156.2.3.1
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: sops
@@ -578,6 +575,18 @@
   visiblename: sops
   version: 3.9.2
   origversion: 3.9.2-1.fc39
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
   status: outdated
   summary: Simple and flexible tool for managing secrets
   licenses:
@@ -742,24 +751,6 @@
   subrepo: secops
   binname: sops
   visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.3
-  origversion: 3.9.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
   version: 3.9.2
   origversion: 3.9.2-1~ops2deb
   status: legacy
@@ -780,6 +771,15 @@
   visiblename: sops
   version: 3.9.0
   origversion: 3.9.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: 3.8.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
