@@ -48,7 +48,7 @@ x install sops
 
 ## 流行度
 
-- **Star**: 23,097 · **Fork**: 1,078 · **开放 issue**: 958 · **贡献者**: 194
+- **Star**: 23,106 · **Fork**: 1,080 · **开放 issue**: 958 · **贡献者**: 194
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install sops
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-18 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-23 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-19 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-24 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -91,19 +91,6 @@ x install sops
 | [sops_3.13.3_amd64.deb](https://github.com/mozilla/sops/releases/download/v3.13.3/sops_3.13.3_amd64.deb) | 15.7 MiB | `runtime/deb/amd64` |
 | [sops_3.13.3_arm64.deb](https://github.com/mozilla/sops/releases/download/v3.13.3/sops_3.13.3_arm64.deb) | 14.2 MiB | `runtime/deb/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/sops) 上共有 **72** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**29** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `3.13.3` | ✅ latest |
-| Homebrew | `3.13.3` | ✅ latest |
-| Nix unstable | `3.13.3` | ✅ latest |
-| Void | `3.13.1` | ⚠️ outdated |
-| Alpine edge | `3.12.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.13.3` | ✅ latest |
-
 ## 改进这些数据
 
 sops 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `sops` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -113,4 +100,4 @@ sops 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:25:50Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:42:20Z._
