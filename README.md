@@ -4,7 +4,7 @@
 
 Simple and flexible tool for managing secrets
 
-![sops](https://repo.x-cmd.io/sops.svg)
+[![x-cmd/install — sops Code Quality Monitoring Repo Card](https://repo.x-cmd.io/sops.svg)](https://x-cmd.com/install/sops)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 23,148 · **Forks**: 1,082 · **Open issues**: 958 · **Contributors**: 194
+- **Stars**: 23,163 · **Forks**: 1,082 · **Open issues**: 958 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 913 · **Open PRs**: 70 · **Closed issues**: 582 · **Open issues**: 376 · **Commits**: 2708
+- **Releases**: 38 · **Merged PRs**: 913 · **Open PRs**: 71 · **Closed issues**: 582 · **Open issues**: 376 · **Commits**: 2708
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-23 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-28 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-25 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-30 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:26:11Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:27:47Z._
