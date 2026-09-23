@@ -4,7 +4,7 @@
 
 Simple and flexible tool for managing secrets
 
-[![x-cmd/install — sops Code Quality Monitoring Repo Card](https://repo.x-cmd.io/sops.svg)](https://x-cmd.com/install/sops)
+[![x-cmd/install — sops Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/sops.svg)](https://x-cmd.com/install/sops)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 23,185 · **Forks**: 1,082 · **Open issues**: 959 · **Contributors**: 194
+- **Stars**: 23,191 · **Forks**: 1,084 · **Open issues**: 959 · **Contributors**: 194
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-26 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-27 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-02 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-27 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-28 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-03 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:32:12Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:33:14Z._
