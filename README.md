@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.13.3` (2026-07-23)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-20
 - **Assets in release**: 21
 
 ## Popularity
 
-- **Stars**: 23,435 · **Forks**: 1,101 · **Open issues**: 962 · **Contributors**: 194
+- **Stars**: 23,445 · **Forks**: 1,102 · **Open issues**: 962 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 917 · **Open PRs**: 81 · **Closed issues**: 582 · **Open issues**: 380 · **Commits**: 2716
+- **Releases**: 38 · **Merged PRs**: 919 · **Open PRs**: 82 · **Closed issues**: 582 · **Open issues**: 380 · **Commits**: 2720
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-21 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-22 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-24 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-29 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-22 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-23 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-25 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-30 | 13 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:06:53Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:40:44Z._
