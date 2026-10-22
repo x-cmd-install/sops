@@ -24,19 +24,9 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 | ReStructuredText | 162 | 0 | 73 | 4 |
 | Json | 152 | 0 | 0 | 5 |
 
-## OpenSSF Scorecard
-
-Overall score: **8 / 10**
-
-Lowest-scoring checks:
-
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
-- **Security-Policy** (0/10) — security policy file not detected
-
 ## Source
 
-- **Upstream**: <https://github.com/mozilla/sops>
+- **Upstream**: <https://github.com/getsops/sops>
 - **Homepage**: <https://getsops.io>
 - **License**: MPL-2.0
 
@@ -48,7 +38,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 23,461 · **Forks**: 1,104 · **Open issues**: 962 · **Contributors**: 194
+- **Stars**: 23,477 · **Forks**: 1,105 · **Open issues**: 962 · **Contributors**: 194
 
 ## Totals (cumulative)
 
@@ -58,38 +48,38 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-23 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-24 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-26 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-31 | 13 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-22 | 0 | 5 | 12 | 0 | 3 | 5 |
+| last60d | 2026-08-23 | 0 | 13 | 15 | 1 | 6 | 10 |
+| 90d | 2026-07-24 | 0 | 23 | 18 | 2 | 12 | 23 |
+| last180d | 2026-04-25 | 4 | 73 | 32 | 18 | 24 | 92 |
+| 360d | 2025-10-27 | 6 | 164 | 42 | 45 | 37 | 225 |
+| last720d | 2024-11-01 | 13 | 356 | 54 | 98 | 61 | 907 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [sops-3.13.3-1.aarch64.rpm](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-3.13.3-1.aarch64.rpm) | 14.7 MiB | `runtime/rpm/aarch64` |
-| [sops-3.13.3-1.x86_64.rpm](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-3.13.3-1.x86_64.rpm) | 16.3 MiB | `runtime/rpm/x86_64` |
-| [sops-v3.13.3.amd64.exe](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.amd64.exe) | 51.0 MiB | `other` |
-| [sops-v3.13.3.amd64.exe.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.amd64.exe.spdx.sbom.json) | 193.5 KiB | `other` |
-| [sops-v3.13.3.arm64.exe](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.arm64.exe) | 46.7 MiB | `other` |
-| [sops-v3.13.3.arm64.exe.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.arm64.exe.spdx.sbom.json) | 193.5 KiB | `other` |
-| [sops-v3.13.3.checksums.sigstore.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.sigstore.json) | 10.1 KiB | `other` |
-| [sops-v3.13.3.checksums.txt](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.txt) | 630 B | `other` |
-| [sops-v3.13.3.darwin](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin) | 99.1 MiB | `native/darwin/x64` |
-| [sops-v3.13.3.darwin.amd64](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.amd64) | 51.2 MiB | `native/darwin/x64` |
-| [sops-v3.13.3.darwin.amd64.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.amd64.spdx.sbom.json) | 191.1 KiB | `native/darwin/x64` |
-| [sops-v3.13.3.darwin.arm64](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.arm64) | 47.8 MiB | `native/darwin/arm64` |
-| [sops-v3.13.3.darwin.arm64.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.arm64.spdx.sbom.json) | 191.1 KiB | `native/darwin/arm64` |
-| [sops-v3.13.3.darwin.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.spdx.sbom.json) | 352.9 KiB | `native/darwin/x64` |
-| [sops-v3.13.3.intoto.jsonl](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.intoto.jsonl) | 26.5 KiB | `other` |
-| [sops-v3.13.3.linux.amd64](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64) | 49.7 MiB | `native/linux/x64` |
-| [sops-v3.13.3.linux.amd64.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64.spdx.sbom.json) | 191.1 KiB | `native/linux/x64` |
-| [sops-v3.13.3.linux.arm64](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.linux.arm64) | 46.1 MiB | `native/linux/arm64` |
-| [sops-v3.13.3.linux.arm64.spdx.sbom.json](https://github.com/mozilla/sops/releases/download/v3.13.3/sops-v3.13.3.linux.arm64.spdx.sbom.json) | 191.1 KiB | `native/linux/arm64` |
-| [sops_3.13.3_amd64.deb](https://github.com/mozilla/sops/releases/download/v3.13.3/sops_3.13.3_amd64.deb) | 15.7 MiB | `runtime/deb/amd64` |
-| [sops_3.13.3_arm64.deb](https://github.com/mozilla/sops/releases/download/v3.13.3/sops_3.13.3_arm64.deb) | 14.2 MiB | `runtime/deb/arm64` |
+| [sops-3.13.3-1.aarch64.rpm](https://github.com/getsops/sops/releases/download/v3.13.3/sops-3.13.3-1.aarch64.rpm) | 14.7 MiB | `runtime/rpm/aarch64` |
+| [sops-3.13.3-1.x86_64.rpm](https://github.com/getsops/sops/releases/download/v3.13.3/sops-3.13.3-1.x86_64.rpm) | 16.3 MiB | `runtime/rpm/x86_64` |
+| [sops-v3.13.3.amd64.exe](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.amd64.exe) | 51.0 MiB | `other` |
+| [sops-v3.13.3.amd64.exe.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.amd64.exe.spdx.sbom.json) | 193.5 KiB | `other` |
+| [sops-v3.13.3.arm64.exe](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.arm64.exe) | 46.7 MiB | `other` |
+| [sops-v3.13.3.arm64.exe.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.arm64.exe.spdx.sbom.json) | 193.5 KiB | `other` |
+| [sops-v3.13.3.checksums.sigstore.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.sigstore.json) | 10.1 KiB | `other` |
+| [sops-v3.13.3.checksums.txt](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.checksums.txt) | 630 B | `other` |
+| [sops-v3.13.3.darwin](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin) | 99.1 MiB | `native/darwin/x64` |
+| [sops-v3.13.3.darwin.amd64](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.amd64) | 51.2 MiB | `native/darwin/x64` |
+| [sops-v3.13.3.darwin.amd64.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.amd64.spdx.sbom.json) | 191.1 KiB | `native/darwin/x64` |
+| [sops-v3.13.3.darwin.arm64](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.arm64) | 47.8 MiB | `native/darwin/arm64` |
+| [sops-v3.13.3.darwin.arm64.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.arm64.spdx.sbom.json) | 191.1 KiB | `native/darwin/arm64` |
+| [sops-v3.13.3.darwin.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.darwin.spdx.sbom.json) | 352.9 KiB | `native/darwin/x64` |
+| [sops-v3.13.3.intoto.jsonl](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.intoto.jsonl) | 26.5 KiB | `other` |
+| [sops-v3.13.3.linux.amd64](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64) | 49.7 MiB | `native/linux/x64` |
+| [sops-v3.13.3.linux.amd64.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64.spdx.sbom.json) | 191.1 KiB | `native/linux/x64` |
+| [sops-v3.13.3.linux.arm64](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.arm64) | 46.1 MiB | `native/linux/arm64` |
+| [sops-v3.13.3.linux.arm64.spdx.sbom.json](https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.arm64.spdx.sbom.json) | 191.1 KiB | `native/linux/arm64` |
+| [sops_3.13.3_amd64.deb](https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_amd64.deb) | 15.7 MiB | `runtime/deb/amd64` |
+| [sops_3.13.3_arm64.deb](https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_arm64.deb) | 14.2 MiB | `runtime/deb/arm64` |
 
 ## Improve this data
 
@@ -100,4 +90,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:15:04Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:16:31Z._
