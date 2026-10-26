@@ -1,69 +1,3 @@
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.10.1
-  origversion: 3.10.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.3
-  origversion: 3.9.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.2
-  origversion: 3.9.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.1
-  origversion: 3.9.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.0
-  origversion: 3.9.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: sops
-  visiblename: sops
-  version: 3.7.3
-  origversion: 3.7.3-bp155.1.11
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -169,18 +103,6 @@
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: sops
-  visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-bp156.1.8
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: aur
   srcname: sops-git
   binname: sops-git
@@ -302,6 +224,18 @@
     - MPL-2.0
   categories:
     - app-crypt
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: sops
+  visiblename: sops
+  version: 3.8.0
+  origversion: 3.8.0-bp156.1.8
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Productivity/Security
 - repo: liguros_develop
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -472,6 +406,18 @@
     - MIT
   categories:
     - Filesystem
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: sops
+  visiblename: sops
+  version: 3.7.3
+  origversion: 3.7.3-bp155.1.11
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Productivity/Security
 - repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: sops
@@ -543,7 +489,7 @@
   binname: sops
   visiblename: security/sops
   version: 3.11.0
-  origversion: 3.11.0nb10
+  origversion: 3.11.0nb11
   status: outdated
   summary: Simple and flexible tool for managing secrets
   maintainers:
@@ -781,6 +727,60 @@
   visiblename: sops
   version: 3.10.2
   origversion: 3.10.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.10.1
+  origversion: 3.10.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.3
+  origversion: 3.9.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.2
+  origversion: 3.9.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.1
+  origversion: 3.9.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.0
+  origversion: 3.9.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
