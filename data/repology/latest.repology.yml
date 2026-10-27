@@ -1,3 +1,25 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -224,18 +246,6 @@
     - MPL-2.0
   categories:
     - app-crypt
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: sops
-  visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-bp156.1.8
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: liguros_develop
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -279,28 +289,6 @@
   categories:
     - security
 - repo: manjaro_stable
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: manjaro_unstable
   subrepo: extra
   srcname: sops
   binname: sops
@@ -412,6 +400,18 @@
   visiblename: sops
   version: 3.7.3
   origversion: 3.7.3-bp155.1.11
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Productivity/Security
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: sops
+  visiblename: sops
+  version: 3.8.0
+  origversion: 3.8.0-bp156.1.8
   status: outdated
   summary: Simple and flexible tool for managing secrets
   licenses:
