@@ -1,14 +1,3 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: sops
@@ -18,19 +7,6 @@
   origversion: 3.13.3-1
   status: newest
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: 3.8.1-r6
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - michal@polanski.me
   licenses:
     - MPL-2.0
 - repo: alpine_3_21
@@ -98,6 +74,19 @@
     - michal@polanski.me
   licenses:
     - MPL-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: 3.8.1-r6
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MPL-2.0
 - repo: altsisyphus
   srcname: sops
   binnames:
@@ -156,6 +145,17 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-apps
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
 - repo: freebsd
   srcname: security/sops
   binname: sops
