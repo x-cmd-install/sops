@@ -1,27 +1,14 @@
-- repo: terra_41
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.11.0
-  origversion: 3.11.0-1.fc41
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
-- repo: terra_rawhide
+- repo: manjaro_testing
+  subrepo: extra
   srcname: sops
   binname: sops
   visiblename: sops
   version: 3.13.3
-  origversion: 3.13.3-1.fcrawhide
+  origversion: 3.13.3-1
   status: newest
-  summary: Simple and flexible tool for managing secrets
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
-  categories:
-    - Unspecified
 - repo: manjaro_unstable
   subrepo: extra
   srcname: sops
@@ -31,6 +18,18 @@
   origversion: 3.13.3-1
   status: newest
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
+- repo: nix_stable_24_05
+  srcname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: null
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - contact@scrumplex.net
+    - joerg@thalheim.io
   licenses:
     - MPL-2.0
 - repo: alpine_3_20
@@ -98,18 +97,6 @@
     - michal@polanski.me
   licenses:
     - MPL-2.0
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: sops
-  visiblename: sops
-  version: 3.7.3
-  origversion: 3.7.3-bp155.1.11
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: alpine_edge
   subrepo: community
   srcname: sops
@@ -324,29 +311,6 @@
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: nix_stable_24_05
-  srcname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: null
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - contact@scrumplex.net
-    - joerg@thalheim.io
-  licenses:
-    - MPL-2.0
 - repo: nix_stable_24_11
   srcname: sops
   visiblename: sops
@@ -430,6 +394,18 @@
     - MIT
   categories:
     - Filesystem
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: sops
+  visiblename: sops
+  version: 3.7.3
+  origversion: 3.7.3-bp155.1.11
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Productivity/Security
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: sops
@@ -628,6 +604,30 @@
   version: 3.11.0
   origversion: 3.11.0-1.fc41
   status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.11.0
+  origversion: 3.11.0-1.fc41
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1.fcrawhide
+  status: newest
   summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
