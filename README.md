@@ -38,7 +38,7 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,579 · **Forks**: 1,112 · **Open issues**: 962 · **Contributors**: 194
+- **Stars**: 23,581 · **Forks**: 1,112 · **Open issues**: 962 · **Contributors**: 194
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 6 | 15 | 0 | 3 | 6 |
-| last60d | 2026-09-02 | 0 | 9 | 20 | 1 | 5 | 9 |
-| 90d | 2026-08-03 | 0 | 20 | 21 | 2 | 11 | 22 |
-| last180d | 2026-05-05 | 4 | 68 | 35 | 17 | 20 | 86 |
-| 360d | 2025-11-06 | 6 | 162 | 47 | 43 | 37 | 223 |
-| last720d | 2024-11-11 | 13 | 355 | 59 | 98 | 60 | 909 |
+| 30d | 2026-10-03 | 0 | 6 | 15 | 0 | 3 | 5 |
+| last60d | 2026-09-03 | 0 | 9 | 20 | 1 | 5 | 8 |
+| 90d | 2026-08-04 | 0 | 20 | 21 | 2 | 10 | 20 |
+| last180d | 2026-05-06 | 4 | 68 | 35 | 17 | 20 | 76 |
+| 360d | 2025-11-07 | 6 | 162 | 47 | 43 | 37 | 220 |
+| last720d | 2024-11-12 | 13 | 355 | 59 | 98 | 60 | 905 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **73** distros on [repology.org](https://repology.org/project/sops). **25** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+Reported by **73** distros on [repology.org](https://repology.org/project/sops). **23** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:37:07Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:35:46Z._
