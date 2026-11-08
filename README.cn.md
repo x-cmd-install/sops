@@ -38,7 +38,7 @@ x install sops
 
 ## 流行度
 
-- **Star**: 23,640 · **Fork**: 1,115 · **开放 issue**: 962 · **贡献者**: 193
+- **Star**: 23,642 · **Fork**: 1,114 · **开放 issue**: 962 · **贡献者**: 193
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install sops
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 6 | 15 | 0 | 3 | 6 |
-| last60d | 2026-09-08 | 0 | 9 | 19 | 0 | 5 | 9 |
-| 90d | 2026-08-09 | 0 | 21 | 22 | 2 | 9 | 21 |
-| last180d | 2026-05-11 | 3 | 66 | 35 | 17 | 19 | 77 |
-| 360d | 2025-11-12 | 6 | 160 | 47 | 41 | 37 | 221 |
-| last720d | 2024-11-17 | 13 | 356 | 60 | 98 | 60 | 907 |
+| 30d | 2026-10-09 | 0 | 6 | 15 | 0 | 2 | 6 |
+| last60d | 2026-09-09 | 0 | 9 | 19 | 0 | 4 | 9 |
+| 90d | 2026-08-10 | 0 | 19 | 22 | 2 | 9 | 21 |
+| last180d | 2026-05-12 | 3 | 66 | 35 | 17 | 19 | 77 |
+| 360d | 2025-11-13 | 6 | 160 | 47 | 41 | 37 | 221 |
+| last720d | 2024-11-18 | 13 | 354 | 60 | 98 | 60 | 907 |
 
 ## Release 资产
 
@@ -81,6 +81,19 @@ x install sops
 | [sops_3.13.3_amd64.deb](https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_amd64.deb) | 15.7 MiB | `runtime/deb/amd64` |
 | [sops_3.13.3_arm64.deb](https://github.com/getsops/sops/releases/download/v3.13.3/sops_3.13.3_arm64.deb) | 14.2 MiB | `runtime/deb/arm64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/sops) 上共有 **72** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**24** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `3.13.3` | ✅ latest |
+| Homebrew | `3.13.3` | ✅ latest |
+| Nix unstable | `3.13.3` | ✅ latest |
+| Void | `3.13.3` | ✅ latest |
+| Alpine edge | `3.12.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.13.3` | ✅ latest |
+
 ## 改进这些数据
 
 sops 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `sops` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -90,4 +103,4 @@ sops 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T06:30:22Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T06:27:44Z._
