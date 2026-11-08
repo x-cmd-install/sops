@@ -1,25 +1,33 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: nix_stable_24_05
   srcname: sops
-  binname: sops
   visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-1
+  version: 3.8.1
+  origversion: null
   status: outdated
-  summary: Editor of encrypted files that supports YAML, JSON and BINARY formats
-  licenses:
-    - MPL2
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - contact@scrumplex.net
+    - joerg@thalheim.io
   licenses:
     - MPL-2.0
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.10.2
+  origversion: 3.10.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.10.1
+  origversion: 3.10.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -137,13 +145,6 @@
     - chocobo1@aur
   licenses:
     - MPL2
-- repo: chocolatey
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: 'SOPS: Secrets OPerationS'
 - repo: exherbo
   subrepo: CleverCloud
   srcname: sys-apps/sops
@@ -293,22 +294,32 @@
   srcname: sops
   binname: sops
   visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-1
-  status: outdated
-  summary: Editor of encrypted files that supports YAML, JSON and BINARY formats
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
-    - MPL2
-- repo: nix_stable_24_05
+    - MPL-2.0
+- repo: manjaro_testing
+  subrepo: extra
   srcname: sops
+  binname: sops
   visiblename: sops
-  version: 3.8.1
-  origversion: null
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - contact@scrumplex.net
-    - joerg@thalheim.io
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
 - repo: nix_stable_24_11
@@ -383,17 +394,6 @@
     - ports@openbsd.org
   categories:
     - security
-- repo: openpkg_current
-  srcname: sops
-  visiblename: sops
-  version: 3.11.0.20250928
-  origversion: null
-  status: outdated
-  summary: Secrets OPerationS (SOPS)
-  licenses:
-    - MIT
-  categories:
-    - Filesystem
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: sops
@@ -725,24 +725,6 @@
   subrepo: secops
   binname: sops
   visiblename: sops
-  version: 3.10.2
-  origversion: 3.10.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.10.1
-  origversion: 3.10.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
   version: 3.9.4
   origversion: 3.9.4-1~ops2deb
   status: legacy
@@ -820,3 +802,10 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
+- repo: chocolatey
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: 'SOPS: Secrets OPerationS'
