@@ -33,27 +33,27 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.13.3` (2026-07-23)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-09
 - **Assets in release**: 21
 
 ## Popularity
 
-- **Stars**: 23,657 · **Forks**: 1,114 · **Open issues**: 962 · **Contributors**: 193
+- **Stars**: 23,670 · **Forks**: 1,113 · **Open issues**: 962 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 921 · **Open PRs**: 88 · **Closed issues**: 582 · **Open issues**: 380 · **Commits**: 2724
+- **Releases**: 38 · **Merged PRs**: 922 · **Open PRs**: 88 · **Closed issues**: 582 · **Open issues**: 380 · **Commits**: 2726
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 6 | 15 | 0 | 2 | 4 |
-| last60d | 2026-09-10 | 0 | 9 | 19 | 0 | 4 | 9 |
-| 90d | 2026-08-11 | 0 | 19 | 22 | 2 | 8 | 19 |
-| last180d | 2026-05-13 | 3 | 66 | 35 | 17 | 19 | 69 |
-| 360d | 2025-11-14 | 6 | 160 | 47 | 41 | 37 | 220 |
-| last720d | 2024-11-19 | 13 | 354 | 59 | 98 | 60 | 903 |
+| 30d | 2026-10-11 | 0 | 7 | 14 | 0 | 1 | 5 |
+| last60d | 2026-09-11 | 0 | 10 | 19 | 0 | 4 | 10 |
+| 90d | 2026-08-12 | 0 | 20 | 22 | 2 | 7 | 20 |
+| last180d | 2026-05-14 | 3 | 65 | 35 | 17 | 19 | 70 |
+| 360d | 2025-11-15 | 6 | 161 | 47 | 41 | 37 | 221 |
+| last720d | 2024-11-20 | 13 | 355 | 59 | 97 | 60 | 905 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:09:54Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:50:30Z._
