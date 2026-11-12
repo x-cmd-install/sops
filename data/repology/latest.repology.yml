@@ -1,33 +1,39 @@
-- repo: nix_stable_24_05
+- repo: terra_rawhide
   srcname: sops
+  binname: sops
   visiblename: sops
-  version: 3.8.1
-  origversion: null
-  status: outdated
+  version: 3.13.3
+  origversion: 3.13.3-1.fcrawhide
+  status: newest
   summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - contact@scrumplex.net
-    - joerg@thalheim.io
   licenses:
     - MPL-2.0
-- repo: wakemeops
-  subrepo: secops
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: sops
   binname: sops
   visiblename: sops
-  version: 3.10.2
-  origversion: 3.10.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: sops
   binname: sops
   visiblename: sops
-  version: 3.10.1
-  origversion: 3.10.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -145,6 +151,13 @@
     - chocobo1@aur
   licenses:
     - MPL2
+- repo: chocolatey
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: 'SOPS: Secrets OPerationS'
 - repo: exherbo
   subrepo: CleverCloud
   srcname: sys-apps/sops
@@ -162,7 +175,7 @@
   binname: sops
   visiblename: security/sops
   version: 3.13.3
-  origversion: 3.13.3_5
+  origversion: 3.13.3_6
   status: newest
   summary: Editor of encrypted files that supports YAML, JSON and BINARY formats
   maintainers:
@@ -320,6 +333,18 @@
   origversion: 3.13.3-1
   status: newest
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
+- repo: nix_stable_24_05
+  srcname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: null
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - contact@scrumplex.net
+    - joerg@thalheim.io
   licenses:
     - MPL-2.0
 - repo: nix_stable_24_11
@@ -501,7 +526,7 @@
   binname: sops
   visiblename: security/sops
   version: 3.13.3
-  origversion: 3.13.3nb2
+  origversion: 3.13.3nb3
   status: newest
   summary: Simple and flexible tool for managing secrets
   maintainers:
@@ -573,30 +598,6 @@
     - MPL-2.0
   categories:
     - Unspecified
-- repo: terra_40
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1.fc40
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1.fc40
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
 - repo: terra_41
   srcname: sops
   binname: sops
@@ -616,18 +617,6 @@
   version: 3.11.0
   origversion: 3.11.0-1.fc41
   status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1.fcrawhide
-  status: newest
   summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
@@ -725,6 +714,24 @@
   subrepo: secops
   binname: sops
   visiblename: sops
+  version: 3.10.2
+  origversion: 3.10.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.10.1
+  origversion: 3.10.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
   version: 3.9.4
   origversion: 3.9.4-1~ops2deb
   status: legacy
@@ -802,10 +809,3 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: chocolatey
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: 'SOPS: Secrets OPerationS'
