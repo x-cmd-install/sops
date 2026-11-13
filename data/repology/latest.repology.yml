@@ -1,39 +1,34 @@
-- repo: terra_rawhide
-  srcname: sops
+- repo: scoop
+  subrepo: main
   binname: sops
   visiblename: sops
   version: 3.13.3
-  origversion: 3.13.3-1.fcrawhide
+  origversion: null
   status: newest
-  summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
+- repo: slackbuilds
+  srcname: development/sops
+  visiblename: development/sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  maintainers:
+    - ccarcaci@libero.it
   categories:
-    - Unspecified
-- repo: terra_40
+    - development
+- repo: nix_stable_24_05
   srcname: sops
-  binname: sops
   visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1.fc40
+  version: 3.8.1
+  origversion: null
   status: outdated
   summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - contact@scrumplex.net
+    - joerg@thalheim.io
   licenses:
     - MPL-2.0
-  categories:
-    - Unspecified
-- repo: terra_40
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1.fc40
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -335,18 +330,6 @@
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
-- repo: nix_stable_24_05
-  srcname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: null
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - contact@scrumplex.net
-    - joerg@thalheim.io
-  licenses:
-    - MPL-2.0
 - repo: nix_stable_24_11
   srcname: sops
   visiblename: sops
@@ -533,25 +516,6 @@
     - leot@netbsd.org
   categories:
     - security
-- repo: scoop
-  subrepo: main
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  licenses:
-    - MPL-2.0
-- repo: slackbuilds
-  srcname: development/sops
-  visiblename: development/sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  maintainers:
-    - ccarcaci@libero.it
-  categories:
-    - development
 - repo: termux
   srcname: sops
   binname: sops
@@ -598,6 +562,30 @@
     - MPL-2.0
   categories:
     - Unspecified
+- repo: terra_40
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
 - repo: terra_41
   srcname: sops
   binname: sops
@@ -617,6 +605,18 @@
   version: 3.11.0
   origversion: 3.11.0-1.fc41
   status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1.fcrawhide
+  status: newest
   summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
