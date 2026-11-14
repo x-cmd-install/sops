@@ -38,22 +38,22 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,699 · **Forks**: 1,117 · **Open issues**: 963 · **Contributors**: 193
+- **Stars**: 23,704 · **Forks**: 1,116 · **Open issues**: 963 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 922 · **Open PRs**: 90 · **Closed issues**: 582 · **Open issues**: 381 · **Commits**: 2726
+- **Releases**: 38 · **Merged PRs**: 922 · **Open PRs**: 92 · **Closed issues**: 582 · **Open issues**: 381 · **Commits**: 2726
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 5 | 14 | 0 | 1 | 5 |
-| last60d | 2026-09-14 | 0 | 10 | 21 | 0 | 5 | 10 |
-| 90d | 2026-08-15 | 0 | 20 | 24 | 2 | 8 | 20 |
-| last180d | 2026-05-17 | 2 | 64 | 37 | 17 | 20 | 70 |
-| 360d | 2025-11-18 | 6 | 161 | 49 | 41 | 37 | 221 |
-| last720d | 2024-11-23 | 13 | 355 | 61 | 96 | 61 | 905 |
+| 30d | 2026-10-15 | 0 | 5 | 16 | 0 | 1 | 5 |
+| last60d | 2026-09-15 | 0 | 10 | 23 | 0 | 5 | 10 |
+| 90d | 2026-08-16 | 0 | 20 | 26 | 2 | 8 | 20 |
+| last180d | 2026-05-18 | 2 | 62 | 39 | 17 | 20 | 70 |
+| 360d | 2025-11-19 | 6 | 160 | 51 | 40 | 37 | 221 |
+| last720d | 2024-11-24 | 13 | 354 | 62 | 96 | 60 | 905 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **72** distros on [repology.org](https://repology.org/project/sops). **25** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
+Reported by **70** distros on [repology.org](https://repology.org/project/sops). **25** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:32:10Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:08:21Z._
