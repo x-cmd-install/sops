@@ -1,32 +1,12 @@
-- repo: scoop
-  subrepo: main
+- repo: parabola
+  subrepo: extra
+  srcname: sops
   binname: sops
   visiblename: sops
   version: 3.13.3
-  origversion: null
+  origversion: 3.13.3-1
   status: newest
-  licenses:
-    - MPL-2.0
-- repo: slackbuilds
-  srcname: development/sops
-  visiblename: development/sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  maintainers:
-    - ccarcaci@libero.it
-  categories:
-    - development
-- repo: nix_stable_24_05
-  srcname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: null
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - contact@scrumplex.net
-    - joerg@thalheim.io
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
 - repo: alpine_3_20
@@ -180,20 +160,6 @@
 - repo: gentoo_ovl_guru
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
-  version: 3.12.2
-  origversion: null
-  status: legacy
-  summary: Simple And Flexible Tool For Managing Secrets
-  maintainers:
-    - arianxdehghani@gmail.com
-    - sm+gentoo@skym.fi
-  licenses:
-    - MPL-2.0
-  categories:
-    - app-crypt
-- repo: gentoo_ovl_guru
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
   version: 3.13.3
   origversion: null
   status: newest
@@ -247,20 +213,6 @@
   version: 3.9.4
   origversion: null
   status: outdated
-  summary: Simple And Flexible Tool For Managing Secrets
-  maintainers:
-    - arianxdehghani@gmail.com
-    - sm+gentoo@skym.fi
-  licenses:
-    - MPL-2.0
-  categories:
-    - app-crypt
-- repo: liguros_develop
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
-  version: 3.12.2
-  origversion: null
-  status: legacy
   summary: Simple And Flexible Tool For Managing Secrets
   maintainers:
     - arianxdehghani@gmail.com
@@ -328,6 +280,18 @@
   origversion: 3.13.3-1
   status: newest
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
+- repo: nix_stable_24_05
+  srcname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: null
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - contact@scrumplex.net
+    - joerg@thalheim.io
   licenses:
     - MPL-2.0
 - repo: nix_stable_24_11
@@ -469,17 +433,6 @@
     - MPL-2.0
   categories:
     - Productivity/Security
-- repo: parabola
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
 - repo: pkgsrc_2026_2
   srcname: security/sops
   binname: sops
@@ -516,6 +469,25 @@
     - leot@netbsd.org
   categories:
     - security
+- repo: scoop
+  subrepo: main
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  licenses:
+    - MPL-2.0
+- repo: slackbuilds
+  srcname: development/sops
+  visiblename: development/sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  maintainers:
+    - ccarcaci@libero.it
+  categories:
+    - development
 - repo: termux
   srcname: sops
   binname: sops
