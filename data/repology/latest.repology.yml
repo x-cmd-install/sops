@@ -1,96 +1,17 @@
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.2
-  origversion: 3.9.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.1
-  origversion: 3.9.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: chocolatey
-  binname: sops
+- repo: homebrew
+  srcname: sops
   visiblename: sops
   version: 3.13.3
   origversion: null
   status: newest
-  summary: 'SOPS: Secrets OPerationS'
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.0
-  origversion: 3.9.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.8.1
-  origversion: 3.8.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: parabola
-  subrepo: extra
+  summary: Editor of encrypted files
+- repo: homebrew
   srcname: sops
-  binname: sops
   visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.7.3
-  origversion: 3.7.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: freebsd
-  srcname: security/sops
-  binname: sops
-  visiblename: security/sops
-  version: 3.13.3
-  origversion: 3.13.3_6
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON and BINARY formats
-  maintainers:
-    - bofh@freebsd.org
-  categories:
-    - security
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Editor of encrypted files
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -208,6 +129,13 @@
     - chocobo1@aur
   licenses:
     - MPL2
+- repo: chocolatey
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: 'SOPS: Secrets OPerationS'
 - repo: exherbo
   subrepo: CleverCloud
   srcname: sys-apps/sops
@@ -220,6 +148,18 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-apps
+- repo: freebsd
+  srcname: security/sops
+  binname: sops
+  visiblename: security/sops
+  version: 3.13.3
+  origversion: 3.13.3_6
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON and BINARY formats
+  maintainers:
+    - bofh@freebsd.org
+  categories:
+    - security
 - repo: gentoo
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -256,20 +196,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: gentoo_ovl_guru
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: Simple And Flexible Tool For Managing Secrets
-  maintainers:
-    - arianxdehghani@gmail.com
-    - sm+gentoo@skym.fi
-  licenses:
-    - MPL-2.0
-  categories:
-    - app-crypt
 - repo: gnuguix
   srcname: sops
   binname: sops
@@ -278,20 +204,6 @@
   origversion: null
   status: newest
   summary: Tool for managing secrets
-- repo: homebrew
-  srcname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: Editor of encrypted files
-- repo: homebrew
-  srcname: sops
-  visiblename: sops
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Editor of encrypted files
 - repo: liguros_stable
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -320,6 +232,22 @@
     - MPL-2.0
   categories:
     - app-crypt
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: sops
+  binnames:
+    - sops
+    - sops-debuginfo
+    - sops-debugsource
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1.2
+  status: newest
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Productivity/Security
 - repo: liguros_develop
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -501,31 +429,6 @@
     - MPL-2.0
   categories:
     - Productivity/Security
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.9.3
-  origversion: 3.9.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: sops
-  binnames:
-    - sops
-    - sops-debuginfo
-    - sops-debugsource
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1.2
-  status: newest
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Productivity/Security
 - repo: opensuse_security_tumbleweed
   srcname: sops
   binnames:
@@ -541,6 +444,17 @@
     - MPL-2.0
   categories:
     - Productivity/Security
+- repo: parabola
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
 - repo: pkgsrc_2026_2
   srcname: security/sops
   binname: sops
@@ -805,6 +719,78 @@
   visiblename: sops
   version: 3.10.1
   origversion: 3.10.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.3
+  origversion: 3.9.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.2
+  origversion: 3.9.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.1
+  origversion: 3.9.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.9.0
+  origversion: 3.9.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: 3.8.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.8.0
+  origversion: 3.8.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.7.3
+  origversion: 3.7.3-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
