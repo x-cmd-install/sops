@@ -2,145 +2,14 @@
   srcname: sops
   binname: sops
   visiblename: sops
-  version: 3.9.2
-  origversion: 3.9.2-1.fc39
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
-- repo: aur
-  srcname: sops-git
-  binname: sops-git
-  visiblename: sops-git
-  version: 3.8.1.r87.gc8a659e39
-  origversion: 3.8.1.r87.gc8a659e39-1
-  status: rolling
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - MPL2
-- repo: chocolatey
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: 'SOPS: Secrets OPerationS'
-- repo: parabola
-  subrepo: extra
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: 3.13.3-1
-  status: newest
-  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-  licenses:
-    - MPL-2.0
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
   version: 3.8.1
-  origversion: 3.8.1-1~ops2deb
+  origversion: 3.8.1-1.fc39
   status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: terra_39
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.9.2
-  origversion: 3.9.2-1.fc39
-  status: outdated
   summary: Simple and flexible tool for managing secrets
   licenses:
     - MPL-2.0
   categories:
     - Unspecified
-- repo: terra_40
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.9.4
-  origversion: 3.9.4-1.fc40
-  status: outdated
-  summary: Simple and flexible tool for managing secrets
-  licenses:
-    - MPL-2.0
-  categories:
-    - Unspecified
-- repo: gentoo
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: Simple and flexible tool for managing secrets
-  maintainers:
-    - arthurzam@gentoo.org
-  licenses:
-    - MPL-2.0
-    - Apache-2.0
-    - BSD
-    - BSD-2
-    - ISC
-    - MIT
-  categories:
-    - app-crypt
-- repo: gnuguix
-  srcname: sops
-  binname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: Tool for managing secrets
-- repo: homebrew
-  srcname: sops
-  visiblename: sops
-  version: 3.13.3
-  origversion: null
-  status: newest
-  summary: Editor of encrypted files
-- repo: homebrew
-  srcname: sops
-  visiblename: sops
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Editor of encrypted files
-- repo: liguros_stable
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
-  version: 3.9.2
-  origversion: null
-  status: legacy
-  summary: Simple And Flexible Tool For Managing Secrets
-  maintainers:
-    - arianxdehghani@gmail.com
-    - sm+gentoo@skym.fi
-  licenses:
-    - MPL-2.0
-  categories:
-    - app-crypt
-- repo: liguros_stable
-  srcname: app-crypt/sops
-  visiblename: app-crypt/sops
-  version: 3.9.4
-  origversion: null
-  status: outdated
-  summary: Simple And Flexible Tool For Managing Secrets
-  maintainers:
-    - arianxdehghani@gmail.com
-    - sm+gentoo@skym.fi
-  licenses:
-    - MPL-2.0
-  categories:
-    - app-crypt
 - repo: alpine_3_20
   subrepo: community
   srcname: sops
@@ -180,6 +49,13 @@
     - michal@polanski.me
   licenses:
     - MPL-2.0
+- repo: homebrew
+  srcname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: Editor of encrypted files
 - repo: alpine_3_23
   subrepo: community
   srcname: sops
@@ -246,6 +122,25 @@
   summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
   licenses:
     - MPL-2.0
+- repo: aur
+  srcname: sops-git
+  binname: sops-git
+  visiblename: sops-git
+  version: 3.8.1.r87.gc8a659e39
+  origversion: 3.8.1.r87.gc8a659e39-1
+  status: rolling
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - MPL2
+- repo: chocolatey
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: 'SOPS: Secrets OPerationS'
 - repo: exherbo
   subrepo: CleverCloud
   srcname: sys-apps/sops
@@ -288,18 +183,67 @@
     - MIT
   categories:
     - app-crypt
-- repo: terra_39
+- repo: gentoo
+  srcname: app-crypt/sops
+  visiblename: app-crypt/sops
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: Simple and flexible tool for managing secrets
+  maintainers:
+    - arthurzam@gentoo.org
+  licenses:
+    - MPL-2.0
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - ISC
+    - MIT
+  categories:
+    - app-crypt
+- repo: gnuguix
   srcname: sops
   binname: sops
   visiblename: sops
-  version: 3.8.1
-  origversion: 3.8.1-1.fc39
+  version: 3.13.3
+  origversion: null
+  status: newest
+  summary: Tool for managing secrets
+- repo: homebrew
+  srcname: sops
+  visiblename: sops
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Editor of encrypted files
+- repo: liguros_stable
+  srcname: app-crypt/sops
+  visiblename: app-crypt/sops
+  version: 3.9.2
+  origversion: null
   status: legacy
-  summary: Simple and flexible tool for managing secrets
+  summary: Simple And Flexible Tool For Managing Secrets
+  maintainers:
+    - arianxdehghani@gmail.com
+    - sm+gentoo@skym.fi
   licenses:
     - MPL-2.0
   categories:
-    - Unspecified
+    - app-crypt
+- repo: liguros_stable
+  srcname: app-crypt/sops
+  visiblename: app-crypt/sops
+  version: 3.9.4
+  origversion: null
+  status: outdated
+  summary: Simple And Flexible Tool For Managing Secrets
+  maintainers:
+    - arianxdehghani@gmail.com
+    - sm+gentoo@skym.fi
+  licenses:
+    - MPL-2.0
+  categories:
+    - app-crypt
 - repo: liguros_develop
   srcname: app-crypt/sops
   visiblename: app-crypt/sops
@@ -336,15 +280,6 @@
     - MIT
   categories:
     - app-crypt
-- repo: wakemeops
-  subrepo: secops
-  binname: sops
-  visiblename: sops
-  version: 3.8.0
-  origversion: 3.8.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: macports
   srcname: security/sops
   binname: sops
@@ -543,6 +478,17 @@
     - MPL-2.0
   categories:
     - Productivity/Security
+- repo: parabola
+  subrepo: extra
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.13.3
+  origversion: 3.13.3-1
+  status: newest
+  summary: Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+  licenses:
+    - MPL-2.0
 - repo: pkgsrc_2026_2
   srcname: security/sops
   binname: sops
@@ -608,6 +554,42 @@
   summary: Simple and flexible tool for managing secrets
   maintainers:
     - termux@github
+- repo: terra_39
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.2
+  origversion: 3.9.2-1.fc39
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_39
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.2
+  origversion: 3.9.2-1.fc39
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
+- repo: terra_40
+  srcname: sops
+  binname: sops
+  visiblename: sops
+  version: 3.9.4
+  origversion: 3.9.4-1.fc40
+  status: outdated
+  summary: Simple and flexible tool for managing secrets
+  licenses:
+    - MPL-2.0
+  categories:
+    - Unspecified
 - repo: terra_40
   srcname: sops
   binname: sops
@@ -804,6 +786,24 @@
   visiblename: sops
   version: 3.9.0
   origversion: 3.9.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.8.1
+  origversion: 3.8.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: sops
+  visiblename: sops
+  version: 3.8.0
+  origversion: 3.8.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
