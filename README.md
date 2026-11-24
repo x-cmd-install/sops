@@ -33,27 +33,27 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.13.3` (2026-07-23)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-23
 - **Assets in release**: 21
 
 ## Popularity
 
-- **Stars**: 23,806 · **Forks**: 1,125 · **Open issues**: 965 · **Contributors**: 193
+- **Stars**: 23,830 · **Forks**: 1,124 · **Open issues**: 966 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 922 · **Open PRs**: 97 · **Closed issues**: 583 · **Open issues**: 382 · **Commits**: 2726
+- **Releases**: 38 · **Merged PRs**: 923 · **Open PRs**: 96 · **Closed issues**: 583 · **Open issues**: 383 · **Commits**: 2728
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 3 | 14 | 1 | 2 | 0 |
-| last60d | 2026-09-24 | 0 | 8 | 27 | 1 | 5 | 0 |
-| 90d | 2026-08-25 | 0 | 14 | 30 | 2 | 8 | 0 |
-| last180d | 2026-05-27 | 2 | 57 | 43 | 16 | 21 | 0 |
-| 360d | 2025-11-28 | 6 | 157 | 56 | 41 | 38 | 0 |
-| last720d | 2024-12-03 | 12 | 345 | 67 | 96 | 60 | 879 |
+| 30d | 2026-10-25 | 0 | 4 | 12 | 1 | 3 | 3 |
+| last60d | 2026-09-25 | 0 | 9 | 26 | 1 | 6 | 9 |
+| 90d | 2026-08-26 | 0 | 15 | 29 | 2 | 9 | 14 |
+| last180d | 2026-05-28 | 2 | 58 | 42 | 16 | 22 | 64 |
+| 360d | 2025-11-29 | 6 | 158 | 55 | 41 | 39 | 217 |
+| last720d | 2024-12-04 | 12 | 346 | 66 | 96 | 61 | 881 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:09:43Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:27:22Z._
