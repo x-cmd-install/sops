@@ -38,22 +38,22 @@ Total: **23,998** lines of code across **103** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 23,882 · **Forks**: 1,131 · **Open issues**: 967 · **Contributors**: 193
+- **Stars**: 23,888 · **Forks**: 1,132 · **Open issues**: 967 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 923 · **Open PRs**: 97 · **Closed issues**: 583 · **Open issues**: 384 · **Commits**: 2728
+- **Releases**: 38 · **Merged PRs**: 923 · **Open PRs**: 99 · **Closed issues**: 583 · **Open issues**: 384 · **Commits**: 2728
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 3 | 12 | 1 | 4 | 3 |
-| last60d | 2026-09-28 | 0 | 9 | 25 | 1 | 7 | 9 |
-| 90d | 2026-08-29 | 0 | 15 | 30 | 2 | 9 | 14 |
-| last180d | 2026-05-31 | 2 | 58 | 43 | 16 | 23 | 64 |
-| 360d | 2025-12-02 | 6 | 156 | 56 | 41 | 40 | 217 |
-| last720d | 2024-12-07 | 12 | 345 | 67 | 96 | 62 | 881 |
+| 30d | 2026-10-29 | 0 | 3 | 14 | 1 | 4 | 0 |
+| last60d | 2026-09-29 | 0 | 9 | 27 | 1 | 7 | 0 |
+| 90d | 2026-08-30 | 0 | 15 | 32 | 2 | 9 | 0 |
+| last180d | 2026-06-01 | 2 | 58 | 44 | 16 | 23 | 0 |
+| 360d | 2025-12-03 | 6 | 156 | 58 | 41 | 40 | 0 |
+| last720d | 2024-12-08 | 12 | 345 | 69 | 96 | 62 | 881 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for sops lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:57:10Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:45:43Z._
